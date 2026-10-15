@@ -37,5 +37,9 @@ Resource: Australian Cyber Security Centre (ACSC) - 2026 Minimum Elements for a 
 
 
 ## Misconception in My Track
+A common misconception is that Log4Shell (CVE-2021-44228) can only be exploited by someone with physical access to a computer. In fact, it is a remote code execution vulnerability in Apache Log4j 2, meaning an attacker may exploit a vulnerable system remotely under certain conditions. This can allow malicious code to run on the affected system, making the vulnerability serious. Organizations should identify affected systems and install security updates. This information is supported by CISA under the heading “Technical Details,” subsection “Log4Shell.”
+
+Resource: CISA - Mitigating Log4Shell and Other Log4j-Related Vulnerabilities - https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a
 
 ## Open Question
+How can organizations verify that a security patch has fully fixed a vulnerability such as Log4Shell?
