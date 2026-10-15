@@ -21,10 +21,20 @@ The OWASP Mobile Application Security Verification Standard (MASVS) is a securit
 Resource: OWASP - Mobile Application Security Verification Standard (MASVS) - https://mas.owasp.org/MASVS/
 
 ## Networking
+BGP route hijacking occurs when an autonomous system (AS) announces an IP prefix it is not authorized to originate. If other networks accept the false announcement, they may redirect traffic to the hijacking AS instead of the legitimate destination. RPKI helps prevent this through Route Origin Authorizations (ROAs), which allow routers to check whether the originating AS is authorized. However, origin validation does not verify the complete AS path or prevent all path-manipulation attacks.
+
+Resource: NIST - Resilient Interdomain Traffic Exchange: BGP Security and DDoS Mitigation - https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-189.pdf
 
 ## Cybersecurity
+Log4Shell (CVE-2021-44228) was a remote code execution vulnerability in Apache Log4j 2, a widely used Java logging library. It was rated critical because attackers could exploit vulnerable systems remotely to execute malicious code and potentially take full control. The vulnerability was fixed by upgrading affected Log4j versions to patched releases. Organizations should also identify affected systems, apply updates, and investigate possible exploitation.
+
+Resource: CISA - Mitigating Log4Shell and Other Log4j-Related Vulnerabilities - https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a
 
 ## Data
+An SBOM is a nested inventory, a list of ingredients that make up software applications and systems . It helps organizations identify vulnerabilities and manage software supply chain risks. According to the 2026 guidance, its minimum data fields include component name, producer, version, identifiers, dependencies, hash value and algorithm, license, SBOM author and signature, timestamp, data format and version, generation context, tool name and version, and SBOM version.
+
+Resource: Australian Cyber Security Centre (ACSC) - 2026 Minimum Elements for a Software Bill of Materials (SBOM) - https://www.cyber.gov.au/publication/2026-minimum-elements-for-a-software-bill-of-materials-sbom
+
 
 ## Misconception in My Track
 
